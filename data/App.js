@@ -1,5 +1,5 @@
 import {useState} from "react";
-import './App.css';
+import "./App.css";
 
 import layout from "./components/layout";
 
@@ -10,7 +10,7 @@ import About from "./components/About";
 const pagfes = ["portfolio", "contact", "about"];
 
 function App() {
-    const [page, setPage] = useState("portfolio"); ?
+    const [page, setPage] = useState("portfolio"); 
 
   return (
 <layout pages={pages} onSetPage={setPage}>
