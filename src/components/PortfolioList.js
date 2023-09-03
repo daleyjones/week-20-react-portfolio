@@ -1,24 +1,22 @@
-import React from "react";
-import PortfolioItem from "./PortfolioItem";
+import React from 'react';
+import PortfolioItem from './PortfolioItem';
 
-function PortfolioList({ portfolioItems }) {
+function PortfolioList({ portfolio, onFilter }) {
   return (
-    <section id="portfolio">
-      <div className="container">
-        <h2 className="text-center">Portfolio</h2>
-        <div className="row">
-          {portfolioItems.map((item) => (
-            <PortfolioItem
-              key={item.id} // Use a unique identifier (e.g., item.id) as the key
-              title={item.title}
-              description={item.description}
-              imageUrl={item.imageUrl}
-              link={item.link}
-            />
-          ))}
-        </div>
+    <div className="w-100">
+      <div className="portfolio-filter">
+        <select onChange={onFilter}>
+          <option value="">All</option>
+          <option value="react">React</option>
+          <option value="heroku">Heroku</option>
+          <option value="nextjs">NextJS</option>
+          <option value="firebase">Firebase</option>
+        </select>
       </div>
-    </section>
+      {portfolio.map((item, index) => (
+        <PortfolioItem key={index} item={item} />
+      ))}
+    </div>
   );
 }
 
