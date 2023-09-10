@@ -1,29 +1,22 @@
-import {useState} from "react";
+import React, { useState } from "react";
 import "./App.css";
 
-import layout from "./components/layout";
-
+import Layout from "./components/Layout"; 
 import PortfolioDashboard from "./components/PortfolioDashboard";
 import Contact from "./components/Contact";
 import About from "./components/About";
 
-const pagfes = ["portfolio", "contact", "about"];
+const pages = ["portfolio", "contact", "about"]; 
 
 function App() {
-    const [page, setPage] = useState("portfolio"); 
+  const [page, setPage] = useState("portfolio");
 
   return (
-<layout pages={pages} onSetPage={setPage}>
-{page ==="portfolio" && <PortfolioDashboard />}
-{page ==="about" && <About />}
-
-{page ==="contact" && <Contact />}
-
-
-
-
-
-</layout>
+    <Layout pages={pages} onSetPage={setPage}>
+      {page === "portfolio" && <PortfolioDashboard />}
+      {page === "about" && <About />}
+      {page === "contact" && <Contact />}
+    </Layout>
   );
 }
 

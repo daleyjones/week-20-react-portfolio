@@ -1,0 +1,298 @@
+/* About.css */
+
+/* Style the section */
+#about {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  /* Center-align the heading and description */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Style the Who I Am and My Skills sections */
+  .about-section {
+    padding: 20px;
+  }
+  
+  /* Style the skill list */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+
+/* Style the section */
+#contact {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  /* Center-align the heading and description */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Style the contact information */
+  address {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Style the email and phone links */
+  a {
+    color: #007bff; /* Blue color, you can change this */
+  }
+  
+  /* Footer.css */
+
+/* Style the footer section */
+.footer {
+    background-color: #333; /* Dark background color, you can change this */
+    color: #fff; /* Text color, you can change this */
+    padding: 10px 0;
+  }
+  
+  /* Center-align the text */
+  .text-center {
+    text-align: center;
+  }
+
+  /* Header.css */
+
+/* Style the header */
+.masthead {
+    background-color: #333; /* Dark background color for the header, you can change this */
+    color: #fff; /* Text color for the header, you can change this */
+    padding: 20px 0;
+  }
+  
+  /* Style the masthead-brand (logo or site title) */
+  .masthead-brand {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  /* Style the navigation links */
+  .nav-link {
+    color: #fff; /* Text color for navigation links, you can change this */
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+  
+  /* Layout.css */
+
+/* Style the container for the layout */
+.layout-container {
+    background-color: #f9f9f9; /* Background color for the layout, you can change this */
+    min-height: 100vh; /* Ensure the layout covers the entire viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the main content area */
+  .layout-main {
+    flex-grow: 1; /* Make the main content area expand to fill remaining space */
+    padding: 20px; /* Add spacing around the main content */
+  }
+  /* Nav.css */
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333; /* Background color for the navigation bar, you can change this */
+    color: #fff; /* Text color for navigation links, you can change this */
+  }
+  
+  /* Style the navbar-brand (logo or site title) */
+  .navbar-brand {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  /* Style the navigation links */
+  .navbar-nav .nav-item .nav-link {
+    color: #fff; /* Text color for navigation links, you can change this */
+  }
+  
+  /* PortfolioDashboard.css */
+
+/* Style the form container */
+.form-container {
+    background-color: #f5f5f5; /* Background color for the form container, you can change this */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the input fields and text area */
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    background-color: #007bff; /* Button background color, you can change this */
+    color: #fff; /* Button text color, you can change this */
+  }
+  
+  /* Style the portfolio item list */
+  .portfolio-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style each portfolio item */
+  .portfolio-item {
+    background-color: #fff; /* Background color for each portfolio item, you can change this */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the edit and delete buttons */
+  .edit-button,
+  .delete-button {
+    background-color: #007bff; /* Button background color, you can change this */
+    color: #fff; /* Button text color, you can change this */
+    margin-right: 5px;
+  }
+  
+  /* PortfolioItem.css */
+
+/* Style the card layout */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the card image */
+  .card-img-top {
+    max-height: 200px; /* Adjust the maximum height of the image as needed */
+    object-fit: cover;
+  }
+  
+  /* Style the card title */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Style the card description */
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Style the "View" button */
+  .btn-outline-secondary {
+    border-color: #007bff; /* Button border color, you can change this */
+    color: #007bff; /* Button text color, you can change this */
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #007bff; /* Button hover background color, you can change this */
+    color: #fff; /* Button hover text color, you can change this */
+    border-color: #007bff; /* Button hover border color, you can change this */
+  }
+  /* PortfolioList.css */
+
+/* Style the container */
+.w-100 {
+    margin-top: 20px;
+  }
+  
+  /* Style the filter dropdown container */
+  .portfolio-filter {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the filter dropdown */
+  select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #555;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  /* Style the filter dropdown on hover/focus */
+  select:hover,
+  select:focus {
+    border-color: #007bff; /* Dropdown border color on hover/focus, you can change this */
+  }
+  
+  /* Style the portfolio items container */
+  .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items as needed */
+  }
+  
+  /* Clearfix for the portfolio items container */
+  .portfolio-items::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the individual portfolio items */
+  .portfolio-item {
+    float: left;
+    width: calc(33.33% - 20px); /* Adjust the width and gap as needed */
+    box-sizing: border-box;
+  }
+  /* Tag.css */
+
+/* Style the tag container */
+.badge {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #007bff; /* Background color for the tag, you can change this */
+    color: #fff; /* Text color for the tag, you can change this */
+    border-radius: 15px; /* Adjust the border-radius as needed to round the corners */
+    margin-right: 5px; /* Adjust the margin as needed to create spacing between tags */
+  }
+  
+  /* Style the tag on hover */
+  .badge:hover {
+    background-color: #0056b3; /* Background color for the tag on hover, you can change this */
+    color: #fff; /* Text color for the tag on hover, you can change this */
+    cursor: pointer;
+  }
+  /* TagList.css */
+
+/* Style the tag list container */
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Adjust the gap between tags as needed */
+  }
+  
+  /* Style the individual tags within the list */
+  .tag {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #007bff; /* Background color for tags, you can change this */
+    color: #fff; /* Text color for tags, you can change this */
+    border-radius: 15px; /* Adjust the border-radius as needed to round the corners */
+    margin-right: 5px; /* Adjust the margin as needed to create spacing between tags */
+  }
+  
+  /* Style the tags on hover */
+  .tag:hover {
+    background-color: #0056b3; /* Background color for tags on hover, you can change this */
+    color: #fff; /* Text color for tags on hover, you can change this */
+    cursor: pointer;
+  }
+  

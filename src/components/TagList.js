@@ -1,5 +1,6 @@
 import React from "react";
 import Tag from "./Tag";
+import "./App.css"; 
 
 function TagList({ tags }) {
   return (
