@@ -1,7 +1,7 @@
 import React from "react";
 
 import Nav from "./Nav";
-import "./App.css"; 
+import '../App.css';
 
 function Header({ pages, onSetPage }) {
   return (

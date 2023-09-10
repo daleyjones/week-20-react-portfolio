@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PortfolioList from "./PortfolioList";
-import "./App.css"; 
+import '../App.css';
 
 function PortfolioDashboard() {
   // Sample data for portfolio items (you can replace this with your own data)

@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
-
+import '../App.css';
 
 function PortfolioList({ portfolio, onFilter }) {
   return (
